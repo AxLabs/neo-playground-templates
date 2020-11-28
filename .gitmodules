@@ -1,0 +1,18 @@
+[submodule "neo2.dotnet31.devhawk-neo2-nep5"]
+	path = neo2.dotnet31.devhawk-neo2-nep5
+	url = https://github.com/devhawk/neo2-nep5
+[submodule "neo3.dotnet31.devhawk-ttf-loyalty-sample"]
+	path = neo3.dotnet31.devhawk-ttf-loyalty-sample
+	url = https://github.com/devhawk/ttf-loyalty-sample
+[submodule "neo2.dotnet31.devhawk-cneo-sample"]
+	path = neo2.dotnet31.devhawk-cneo-sample
+	url = https://github.com/devhawk/cneo-sample
+[submodule "neo2.java8.neow3j-java-neo2-examples"]
+	path = neo2.java8.neow3j-java-neo2-examples
+	url = https://github.com/neow3j/neow3j-examples-java.git
+[submodule "neo3.java8.neow3j-java-neo3-examples"]
+	path = neo3.java8.neow3j-java-neo3-examples
+	url = https://github.com/neow3j/neow3j-examples-java.git
+[submodule "neo3.dotnet31.ngdseattle-neo-trace-debug-example"]
+	path = neo3.dotnet31.ngdseattle-neo-trace-debug-example
+	url = https://github.com/ngdseattle/neo-trace-debug-example

@@ -1,0 +1,156 @@
+[
+  {
+    "id": "neo2.java8.neow3j-java-neo2-examples",
+    "title": "Java Examples for Neo2",
+    "description": "",
+    "logoUrl": "",
+    "projectUrl": "https://neow3j.io",
+    "git": {
+      "url": "https://github.com/neow3j/neow3j-examples-java.git",
+      "modulePath": "./neo2.java8.neow3j-java-neo2-examples"
+    },
+    "workspace": {
+      "path": "./neo2-examples"
+    },
+    "chain": "neo2",
+    "languages": [
+      "java"
+    ],
+    "tags": [
+      "java",
+      "neo2"
+    ]
+  },
+  {
+    "id": "neo3.java8.neow3j-java-neo3-examples",
+    "title": "Java Examples for Neo3",
+    "description": "",
+    "logoUrl": "",
+    "projectUrl": "https://neow3j.io",
+    "git": {
+      "url": "https://github.com/neow3j/neow3j-examples-java.git",
+      "modulePath": "./neo3.java8.neow3j-java-neo3-examples"
+    },
+    "workspace": {
+      "path": "./neo3-examples"
+    },
+    "chain": "neo3",
+    "languages": [
+      "java"
+    ],
+    "tags": [
+      "java",
+      "neo3"
+    ]
+  },
+  {
+    "id": "neo2.dotnet31.devhawk-cneo-sample",
+    "title": "CNEO Example",
+    "description": "",
+    "logoUrl": "",
+    "projectUrl": "",
+    "git": {
+      "url": "https://github.com/devhawk/cneo-sample",
+      "modulePath": "./neo2.dotnet31.devhawk-cneo-sample"
+    },
+    "workspace": {
+      "path": "./"
+    },
+    "chain": "neo2",
+    "languages": [
+      "dotnet"
+    ],
+    "tags": [
+      "dotnet",
+      "neo2"
+    ]
+  },
+  {
+    "id": "neo2.dotnet31.devhawk-neo2-nep5",
+    "title": "NEP-5 example for Neo2",
+    "description": "",
+    "logoUrl": "",
+    "projectUrl": "",
+    "git": {
+      "url": "https://github.com/devhawk/neo2-nep5",
+      "modulePath": "./neo2.dotnet31.devhawk-neo2-nep5"
+    },
+    "workspace": {
+      "path": "./"
+    },
+    "chain": "neo2",
+    "languages": [
+      "dotnet"
+    ],
+    "tags": [
+      "dotnet",
+      "neo2"
+    ]
+  },
+  {
+    "id": "neo2.dotnet31.devhawk-domain-sample",
+    "title": "Domain Example for Neo2",
+    "description": "",
+    "logoUrl": "",
+    "projectUrl": "",
+    "git": {
+      "url": "https://github.com/devhawk/domain-sample",
+      "modulePath": "./neo2.dotnet31.devhawk-domain-sample"
+    },
+    "workspace": {
+      "path": "./"
+    },
+    "chain": "neo2",
+    "languages": [
+      "dotnet"
+    ],
+    "tags": [
+      "dotnet",
+      "neo2"
+    ]
+  },
+  {
+    "id": "neo3.dotnet31.ngdseattle-neo-trace-debug-example",
+    "title": "Trace Debug Example",
+    "description": "",
+    "logoUrl": "",
+    "projectUrl": "",
+    "git": {
+      "url": "https://github.com/ngdseattle/neo-trace-debug-example",
+      "modulePath": "./neo3.dotnet31.ngdseattle-neo-trace-debug-example"
+    },
+    "workspace": {
+      "path": "./"
+    },
+    "chain": "neo3",
+    "languages": [
+      "dotnet"
+    ],
+    "tags": [
+      "dotnet",
+      "neo3"
+    ]
+  },
+  {
+    "id": "neo3.dotnet31.devhawk-ttf-loyalty-sample",
+    "title": "Token Taxonomy Framework: Loyalty Example",
+    "description": "",
+    "logoUrl": "",
+    "projectUrl": "",
+    "git": {
+      "url": "https://github.com/devhawk/ttf-loyalty-sample",
+      "modulePath": "./neo3.dotnet31.devhawk-ttf-loyalty-sample"
+    },
+    "workspace": {
+      "path": "./"
+    },
+    "chain": "neo3",
+    "languages": [
+      "dotnet"
+    ],
+    "tags": [
+      "dotnet",
+      "neo3"
+    ]
+  }
+]
