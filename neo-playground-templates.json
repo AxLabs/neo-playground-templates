@@ -46,7 +46,7 @@
   {
     "id": "neo2.dotnet31.devhawk-cneo-sample",
     "title": "CNEO Example",
-    "description": "It contains the [CNEO Smart Contract sample](https://github.com/neo-ngd/CNEO-Contract) with additional assets that can be used with the [Neo Blockchain Toolkit](https://marketplace.visualstudio.com/items?itemName=ngd-seattle.neo-blockchain-toolkit).",
+    "description": "It contains the <a href=\"https://github.com/neo-ngd/CNEO-Contract\" target=\"_blank\">CNEO Smart Contract sample</a> with additional assets that can be used with the <a href=\"https://marketplace.visualstudio.com/items?itemName=ngd-seattle.neo-blockchain-toolkit\" target=\"_blank\">Neo Blockchain Toolkit</a>.",
     "logoUrl": "https://avatars3.githubusercontent.com/u/8965?s=460&u=bddbc9c5ed69a82533bbaa8492166e65e11fbaeb&v=4",
     "projectUrl": "https://github.com/devhawk",
     "git": {
@@ -90,7 +90,7 @@
   {
     "id": "neo2.dotnet31.devhawk-domain-sample",
     "title": "Domain Example for Neo2",
-    "description": "It contains the [Domain Smart Contract sample](https://github.com/neo-project/examples/tree/0ab03a0ed5e1e331b756d9ad51b01657385470c7/csharp/Domain) with additional assets that can be used with the [Neo Blockchain Toolkit](https://marketplace.visualstudio.com/items?itemName=ngd-seattle.neo-blockchain-toolkit).",
+    "description": "It contains the <a href=\"https://github.com/neo-project/examples/tree/0ab03a0ed5e1e331b756d9ad51b01657385470c7/csharp/Domain\" target=\"_blank\">Domain Smart Contract sample</a> with additional assets that can be used with the <a href=\"https://marketplace.visualstudio.com/items?itemName=ngd-seattle.neo-blockchain-toolkit\" target=\"_blank\">Neo Blockchain Toolkit</a>.",
     "logoUrl": "https://avatars3.githubusercontent.com/u/8965?s=460&u=bddbc9c5ed69a82533bbaa8492166e65e11fbaeb&v=4",
     "projectUrl": "https://github.com/devhawk",
     "git": {
