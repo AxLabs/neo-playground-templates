@@ -12,6 +12,9 @@
     "workspace": {
       "path": "./neo2-examples"
     },
+    "imageBuild": {
+      "customCmd": "cd ~/workspace && sh gradlew compileJava"
+    },
     "chain": "neo2",
     "languages": [
       "java"
@@ -33,6 +36,9 @@
     },
     "workspace": {
       "path": "./neo3-examples"
+    },
+    "imageBuild": {
+      "customCmd": "cd ~/workspace && sh gradlew compileJava"
     },
     "chain": "neo3",
     "languages": [
