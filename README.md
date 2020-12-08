@@ -4,11 +4,13 @@ This repo is used to add new examples/templates to [Neo Playground](https://neo-
 
 ## How to contribute and add new templates?
 
-It's simple and *anyone* can do it. :sunglasses:
+It's **simple** and **anyone** can do it. :sunglasses:
 
-1) Fork this repo
-2) Create a branch called, for example, `feature/add-new-template`
-3) Let's assume you would like to add the code found in `https://github.com/neow3j/neow3j-examples-java` as a template, more precisely to include Neo3-related templates. First you need to get a `<TEMPLATE_ID>`, which is composed as:
+##### 1. Fork this repo
+##### 2. Create a branch called, for example, `feature/add-new-template`
+##### 3. Create a `<TEMPLATE_ID>`
+
+Let's assume you would like to add the code found in `https://github.com/neow3j/neow3j-examples-java` as a template, more precisely to include Neo3-related templates. First you need to get a `<TEMPLATE_ID>`, which is composed as:
 
 ```shell script
 <CHAIN>.<LANGUAGE_IDENTIFIER>.<GIT_ORG_NAME>-<TEMPLATE_NAME>
@@ -23,7 +25,7 @@ where:
 
 So, in our example, a valid `<TEMPLATE_ID` is `neo3.java8.neow3j-java-neo3-examples`.
 
-4) Go to the terminal and add as a git sub-module:
+##### 4. Go to the terminal and add as a git sub-module:
 
 ```shell script
 git submodule add https://github.com/<GIT_ORG_NAME>/<GIT_REPO_NAME> <TEMPLATE_ID>
@@ -35,7 +37,7 @@ For example, it could be:
 git submodule add https://github.com/neow3j/neow3j-examples-java neo3.java8.neow3j-java-neo3-examples
 ```
 
-5) Then edit the `neo-playground-templates.json`, and include a JSON object that represents the `neo3.java8.neow3j-java-neo3-examples` template:
+##### 5. Edit the `neo-playground-templates.json` to include a JSON object that represents the `neo3.java8.neow3j-java-neo3-examples` template:
 
 ```json
   {
@@ -67,23 +69,23 @@ git submodule add https://github.com/neow3j/neow3j-examples-java neo3.java8.neow
 
 Pay attention to the `path` attribute within the `workspace` object: if you want to set a sub-directory as the template's workspace, you need to accordingly set this attribute. In the example above, the `neo3-examples` directory is where the code related to Neo3 is located. sweat_smile: 
 
-6) Commit your changes :relaxed:
-7) Create a pull request to the [neo-playground-templates](https://github.com/AxLabs/neo-playground-templates) repository
-8) Your template will automatically appear on the [Neo Playground](https://neo-playground.dev) as soon as we merge it! :rocket:
+##### 6. Commit your changes :relaxed:
+##### 7. Create a pull request to the [neo-playground-templates](https://github.com/AxLabs/neo-playground-templates) repository
+##### 8. Your template will automatically appear on the [Neo Playground](https://neo-playground.dev) as soon as we merge it! :rocket:
 
 ## FAQ
 
-1. If I submit a pull request following the steps above, will it automatically appear to [Neo Playground](https://neo-playground.dev)?
+##### 1. If I submit a pull request following the steps above, will it automatically appear to [Neo Playground](https://neo-playground.dev)?
 
 Yes. :raised_hands: 
 
-2. Is it possible that my pull request gets rejected?
+##### 2. Is it possible that my pull request gets rejected?
 
 Well, yes. :sweat_smile:
 
 We will check if the template you're providing is reasonable, and adds value to [Neo Playground](https://neo-playground.dev).
 
-3. What is the criteria to whether approve a template or not?
+##### 3. What is the criteria to whether approve a template or not?
 
 We mainly look at these points:
 
@@ -93,19 +95,19 @@ We mainly look at these points:
 - Are you trying to educate or show something meaningful for the Neo ecosystem?
 - Does the code which is included in the template contains all dependencies?
 
-4. Is it for free?
+##### 4. Is it for free?
 
 Yes! If you have a good and sound template to include in the [Neo Playground](https://neo-playground.dev) we will include there with no extra costs.
 
-5. So, I will host a Neo workshop/tutorial and I would like to offer a template for all the attendees. Is that possible?
+##### 5. So, I will host a Neo workshop/tutorial and I would like to offer a template for all the attendees. Is that possible?
 
 Of course! 
 
-6. Are you making this for profit?
+##### 6. Are you making this for profit?
 
 Unfortunately not. :joy::joy::joy:
 
-7. Are you somehow affiliated to Neo?
+##### 7. Are you somehow affiliated to Neo?
 
 Yes and no.
 
@@ -113,11 +115,13 @@ Yes and no.
 
 However, we're not part of the Neo Foundation nor the Neo Global Development. We're simply contributors to the Neo blockchain.
 
-8. Does Neo Playground have some funding?
+##### 8. Does Neo Playground have some funding?
 
 Not yet. :broken_heart: 
 
-However, if you want to donate something to keep this project going, please, please, please consider:
+We're dedicating some of our fun time. :smile: :alarm_clock:
+
+However, if you want to donate something to keep this project going, please, please, please consider sending **any** amount to:
 
 - NEO: `ARfCuLcGv8x5b9PrBj4m1GUNd5TBTpPfAe`
 - BTC: `3EkLBPkP5uh6eK6KhVQPxbAhqJRnQp3Vot`
