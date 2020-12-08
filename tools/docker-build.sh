@@ -13,6 +13,8 @@ PATTERN="^([A-z0-9]+)+\.([A-z0-9]+)+\.([A-z0-9]+(-{1})?[A-z0-9]*)*([A-z0-9]+)+$"
 for INDEX in "${!IDENTIFIERS[@]}"; do
   ID=${IDENTIFIERS[$INDEX]}
   WORKSPACE_PATH=$(cat neo-playground-templates.json | jq -r --arg i "$INDEX" '.[$i |tonumber] .workspace .path')
+  echo ""
+  echo "##########################"
   echo "ID=$ID"
   echo "WORKSPACE_PATH=$WORKSPACE_PATH"
   if [[ "$ID" =~ $PATTERN ]]; then
@@ -25,6 +27,9 @@ for INDEX in "${!IDENTIFIERS[@]}"; do
     fi
     echo "CUSTOM_CMD=$CUSTOM_CMD"
 
+    echo "-------------------------"
+    echo "Docker BUILD:"
+    echo ""
     docker build \
       --build-arg GIT_PATH="${WORKSPACE_PATH}" \
       --build-arg NEO_IMAGE="${NEO_IMAGE}" \
@@ -33,6 +38,9 @@ for INDEX in "${!IDENTIFIERS[@]}"; do
       -f ./docker/Dockerfile \
       "./${ID}" || { echo "ERROR: '$ID' failed in the 'docker build' phase. Aborting."; exit 1; }
 
+    echo "-------------------------"
+    echo "Docker PUSH:"
+    echo ""
     docker push ${BASE_DOCKER_IMAGE_URL}/${ID}:latest || { echo "ERROR: '$ID' failed in the 'docker push' phase. Aborting."; exit 1; }
   else
     echo "ERROR: '$ID' does not match with the format. Aborting...";
