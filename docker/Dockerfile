@@ -8,6 +8,7 @@ ARG UID=911
 ARG GID=911
 
 RUN chown -R $UID:$GID /config
+RUN chown -R $UID:$GID /tmp
 
 USER $UID:$GID
 COPY $GIT_PATH $HOME/workspace
