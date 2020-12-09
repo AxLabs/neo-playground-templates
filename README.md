@@ -67,7 +67,7 @@ git submodule add https://github.com/neow3j/neow3j-examples-java neo3.java8.neow
   }
 ```
 
-Pay attention to the `path` attribute within the `workspace` object: if you want to set a sub-directory as the template's workspace, you need to accordingly set this attribute. In the example above, the `neo3-examples` directory is where the code related to Neo3 is located. sweat_smile: 
+Pay attention to the `path` attribute within the `workspace` object: if you want to set a sub-directory as the template's workspace, you need to accordingly set this attribute. In the example above, the `neo3-examples` directory is where the code related to Neo3 is located. :sweat_smile: 
 
 ##### 6. Commit your changes :relaxed:
 ##### 7. Create a pull request to the [neo-playground-templates](https://github.com/AxLabs/neo-playground-templates) repository
