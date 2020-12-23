@@ -21,3 +21,15 @@ jobs:
           password: ${{ secrets.CR_PAT }}
       - name: Build & Push Templates
         run: bash ./tools/docker-build.sh
+      - name: Webhook PROD
+        uses: distributhor/workflow-webhook@v1
+        if: github.ref == 'refs/heads/main'
+        env:
+          webhook_url: ${{ secrets.WEBHOOK_PROD_URL }}
+          webhook_secret: ${{ secrets.WEBHOOK_PROD_SECRET }}
+      - name: Webhook TEST
+        uses: distributhor/workflow-webhook@v1
+        if: github.ref == 'refs/heads/develop'
+        env:
+          webhook_url: ${{ secrets.WEBHOOK_TEST_URL }}
+          webhook_secret: ${{ secrets.WEBHOOK_TEST_SECRET }}
