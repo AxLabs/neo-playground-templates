@@ -21,6 +21,10 @@ jobs:
           password: ${{ secrets.CR_PAT }}
       - name: Build & Push Templates
         run: bash ./tools/docker-build.sh
+  webhook:
+    needs: build-and-push
+    runs-on: ubuntu-latest
+    steps:
       - name: Webhook PROD
         uses: distributhor/workflow-webhook@v1
         if: github.ref == 'refs/heads/main'
