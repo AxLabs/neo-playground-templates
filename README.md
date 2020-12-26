@@ -2,6 +2,8 @@
 
 This repo is used to add new examples/templates to [Neo Playground](https://neo-playground.dev).
 
+[Neo Playground](https://neo-playground.dev) is a project developed by [AxLabs](https://axlabs.com) and the community and **not** funded. Please, [consider donating](#8-does-neo-playground-have-some-funding)!
+
 ## How to contribute and add new templates?
 
 It's **simple** and **anyone** can do it. :sunglasses:
