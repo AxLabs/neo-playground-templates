@@ -13,7 +13,7 @@
       "path": "./neo2-examples"
     },
     "imageBuild": {
-      "customCmd": "cd ~/workspace && sh gradlew compileJava"
+      "customCmd": "cd ~/workspace && sh gradlew downloadDependencies && sh gradlew compileJava"
     },
     "chain": "neo2",
     "languages": [
@@ -38,7 +38,7 @@
       "path": "./neo3-examples"
     },
     "imageBuild": {
-      "customCmd": "cd ~/workspace && sh gradlew compileJava"
+      "customCmd": "cd ~/workspace && sh gradlew downloadDependencies && sh gradlew compileJava"
     },
     "chain": "neo3",
     "languages": [
