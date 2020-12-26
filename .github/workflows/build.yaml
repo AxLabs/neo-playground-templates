@@ -1,6 +1,7 @@
 name: build-templates
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
