@@ -116,14 +116,14 @@
     ]
   },
   {
-    "id": "neo3.dotnet31.ngdseattle-neo-trace-debug-example",
+    "id": "neo3.dotnet31.ngdenterprise-neo-trace-debug-example",
     "title": "Trace Debug Example",
     "description": "It contains files needed to demonstrate Trace Debugging, a new feature coming in Neo Blockchain Toolkit for Neo3.",
-    "logoUrl": "https://avatars0.githubusercontent.com/u/52714811?s=200&v=4",
-    "projectUrl": "https://github.com/ngdseattle",
+    "logoUrl": "https://avatars1.githubusercontent.com/u/70729161?s=200&v=4",
+    "projectUrl": "https://github.com/ngdenterprise",
     "git": {
-      "url": "https://github.com/ngdseattle/neo-trace-debug-example",
-      "modulePath": "./neo3.dotnet31.ngdseattle-neo-trace-debug-example"
+      "url": "https://github.com/ngdenterprise/neo-trace-debug-example",
+      "modulePath": "./neo3.dotnet31.ngdenterprise-neo-trace-debug-example"
     },
     "workspace": {
       "path": "./"

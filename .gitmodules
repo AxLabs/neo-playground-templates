@@ -14,7 +14,7 @@
 	path = neo3.java8.neow3j-java-neo3-examples
 	url = https://github.com/neow3j/neow3j-examples-java.git
 [submodule "neo3.dotnet31.ngdseattle-neo-trace-debug-example"]
-	path = neo3.dotnet31.ngdseattle-neo-trace-debug-example
+	path = neo3.dotnet31.ngdenterprise-neo-trace-debug-example
 	url = https://github.com/ngdseattle/neo-trace-debug-example
 [submodule "neo2.dotnet31.devhawk-domain-sample"]
 	path = neo2.dotnet31.devhawk-domain-sample
