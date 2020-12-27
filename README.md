@@ -1,8 +1,10 @@
 # neo-playground-templates
 
-This repo is used to add new examples/templates to [Neo Playground](https://neo-playground.dev).
+This is where **everyone** can add new examples/templates to [Neo Playground](https://neo-playground.dev).
 
-[Neo Playground](https://neo-playground.dev) is a project developed by [AxLabs](https://axlabs.com) and the community and **not** funded. Please, [consider donating](#8-does-neo-playground-have-some-funding)!
+[Neo Playground](https://neo-playground.dev) is **non-funded** project developed by [AxLabs](https://axlabs.com) and the Neo community.
+
+:point_right: Please, [consider donating](#8-does-neo-playground-have-some-funding)! :moneybag: :heart:
 
 ## How to contribute and add new templates?
 
