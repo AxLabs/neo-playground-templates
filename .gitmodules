@@ -19,3 +19,6 @@
 [submodule "neo2.dotnet31.devhawk-domain-sample"]
 	path = neo2.dotnet31.devhawk-domain-sample
 	url = https://github.com/devhawk/domain-sample
+[submodule "neo3.dotnet31.devhawk-registrar-sample"]
+	path = neo3.dotnet31.devhawk-registrar-sample
+	url = https://github.com/devhawk/registrar-sample
