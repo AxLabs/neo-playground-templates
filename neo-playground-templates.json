@@ -95,7 +95,7 @@
   },
   {
     "id": "neo2.dotnet31.devhawk-domain-sample",
-    "title": "Domain Example for Neo2",
+    "title": "Domain/Registrar Example",
     "description": "It contains the <a href=\"https://github.com/neo-project/examples/tree/0ab03a0ed5e1e331b756d9ad51b01657385470c7/csharp/Domain\" target=\"_blank\">Domain Smart Contract sample</a> with additional assets that can be used with the <a href=\"https://marketplace.visualstudio.com/items?itemName=ngd-seattle.neo-blockchain-toolkit\" target=\"_blank\">Neo Blockchain Toolkit</a>.",
     "logoUrl": "https://avatars3.githubusercontent.com/u/8965?s=460&u=bddbc9c5ed69a82533bbaa8492166e65e11fbaeb&v=4",
     "projectUrl": "https://github.com/devhawk",
@@ -161,7 +161,7 @@
   },
   {
     "id": "neo3.dotnet31.devhawk-registrar-sample",
-    "title": "Domain/Registrar Smart Contract Example",
+    "title": "Domain/Registrar Example",
     "description": "It contains the <a href=\"https://github.com/neo-project/examples/tree/0ab03a0ed5e1e331b756d9ad51b01657385470c7/csharp/Domain\" target=\"_blank\">Domain Smart Contract sample</a> updated for Neo 3 and with additional assets that can be used with the Neo 3 version of the <a href=\"https://marketplace.visualstudio.com/items?itemName=ngd-seattle.neo-blockchain-toolkit\" target=\"_target\">Neo Blockchain Toolkit</a>.",
     "logoUrl": "https://avatars3.githubusercontent.com/u/8965?s=460&u=bddbc9c5ed69a82533bbaa8492166e65e11fbaeb&v=4",
     "projectUrl": "https://github.com/devhawk",
