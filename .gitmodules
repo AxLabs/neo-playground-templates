@@ -22,3 +22,6 @@
 [submodule "neo3.dotnet31.devhawk-registrar-sample"]
 	path = neo3.dotnet31.devhawk-registrar-sample
 	url = https://github.com/devhawk/registrar-sample
+[submodule "neo3.go115.nspcc-dev-neo-go-examples-token-sale"]
+	path = neo3.go115.nspcc-dev-neo-go-examples-token-sale
+	url = https://github.com/nspcc-dev/neo-go

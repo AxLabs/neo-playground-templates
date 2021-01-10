@@ -180,5 +180,27 @@
       "dotnet",
       "neo3"
     ]
+  },
+  {
+    "id": "neo3.go115.nspcc-dev-neo-go-examples-token-sale",
+    "title": "Token Sale Example",
+    "description": "This template provides everything you need to start a token sale, with a Golang Smart Contract.",
+    "logoUrl": "https://avatars1.githubusercontent.com/u/45291212?s=200&v=4",
+    "projectUrl": "https://nspcc.ru/en/",
+    "git": {
+      "url": "https://github.com/nspcc-dev/neo-go",
+      "modulePath": "./neo3.go115.nspcc-dev-neo-go-examples-token-sale"
+    },
+    "workspace": {
+      "path": "./examples/token-sale"
+    },
+    "chain": "neo3",
+    "languages": [
+      "golang"
+    ],
+    "tags": [
+      "golang",
+      "neo3"
+    ]
   }
 ]
