@@ -2,10 +2,11 @@ name: build-templates
 
 on:
   workflow_dispatch:
+    inputs:
+      push:
+        description: 'Push Images?'
+        default: 'false'
   push:
-    branches:
-      - main
-      - develop
 
 jobs:
   build-and-push:
@@ -20,21 +21,24 @@ jobs:
           registry: ghcr.io
           username: ${{ secrets.CR_PAT_USERNAME }}
           password: ${{ secrets.CR_PAT }}
-      - name: Build & Push Templates
+      - name: Build Templates
         run: bash ./tools/docker-build.sh
+      - name: Push Templates
+        if: (github.ref == 'refs/heads/main' || github.ref == 'refs/heads/main') && github.event.inputs.push == 'true'
+        run: bash ./tools/docker-push.sh
   webhook:
     needs: build-and-push
     runs-on: ubuntu-latest
     steps:
       - name: Webhook PROD
         uses: distributhor/workflow-webhook@v1
-        if: github.ref == 'refs/heads/main'
+        if: github.ref == 'refs/heads/main' && github.event.inputs.push == 'true'
         env:
           webhook_url: ${{ secrets.WEBHOOK_PROD_URL }}
           webhook_secret: ${{ secrets.WEBHOOK_PROD_SECRET }}
       - name: Webhook TEST
         uses: distributhor/workflow-webhook@v1
-        if: github.ref == 'refs/heads/develop'
+        if: github.ref == 'refs/heads/develop' && github.event.inputs.push == 'true'
         env:
           webhook_url: ${{ secrets.WEBHOOK_TEST_URL }}
           webhook_secret: ${{ secrets.WEBHOOK_TEST_SECRET }}
