@@ -2,7 +2,7 @@
 
 This is where **everyone** can add new examples/templates to [Neo Playground](https://neo-playground.dev).
 
-[Neo Playground](https://neo-playground.dev) is **non-funded** project developed by [AxLabs](https://axlabs.com) and the Neo community.
+[Neo Playground](https://neo-playground.dev) is a **non-funded** project developed by [AxLabs](https://axlabs.com) and the Neo community.
 
 :point_right: Please, [consider donating](#8-does-neo-playground-have-some-funding)! :moneybag: :heart:
 
@@ -27,18 +27,18 @@ where:
 - `<CHAIN>`: either `neo2` or `neo3`
 - `<LANGUAGE_IDENTIFIER>`: either `dotnet31`, `java8`, or `go115`
 
-So, in our example, a valid `<TEMPLATE_ID` is `neo3.java8.neow3j-java-neo3-examples`.
+So, in our example, a valid `<TEMPLATE_ID>` is `neo3.java8.neow3j-java-neo3-examples`.
 
 ##### 4. Go to the terminal and add as a git sub-module:
 
 ```shell script
-git submodule add https://github.com/<GIT_ORG_NAME>/<GIT_REPO_NAME> <TEMPLATE_ID>
+git submodule add https://github.com/<GIT_ORG_NAME>/<GIT_REPO_NAME> <TEMPLATE_ID>/git-repo
 ```
 
 For example, it could be:
 
 ```shell script
-git submodule add https://github.com/neow3j/neow3j-examples-java neo3.java8.neow3j-java-neo3-examples
+git submodule add https://github.com/neow3j/neow3j-examples-java neo3.java8.neow3j-java-neo3-examples/git-repo
 ```
 
 ##### 5. Edit the `neo-playground-templates.json` to include a JSON object that represents the `neo3.java8.neow3j-java-neo3-examples` template:
@@ -47,18 +47,24 @@ git submodule add https://github.com/neow3j/neow3j-examples-java neo3.java8.neow
   {
     "id": "neo3.java8.neow3j-java-neo3-examples",
     "title": "Java Examples for Neo3",
-    "description": "Various examples of smart contracts written in Java.",
+    "description": "Various Java examples for Neo3, mainly focusing on how develop smart contracts using Java. It includes how to develop, compile, and deploy contracts, as well as how to write an application to issue transactions to interact with the created smart contract.",
     "logoUrl": "https://neow3j.io/images/neow3j-neo3.png",
     "projectUrl": "https://neow3j.io",
     "git": {
       "url": "https://github.com/neow3j/neow3j-examples-java.git",
-      "modulePath": "./neo3.java8.neow3j-java-neo3-examples"
+      "modulePath": "./neo3.java8.neow3j-java-neo3-examples/git-repo"
     },
     "workspace": {
-      "path": "./neo3-examples"
+      "path": "./git-repo/neo3-examples"
     },
     "imageBuild": {
-      "customCmd": "cd ~/workspace && sh gradlew compileJava"
+      "customCmd": "cd ~/workspace && sh gradlew downloadDependencies && sh gradlew buildDependents && sh gradlew compileJava"
+    },
+    "codeTour": {
+      "path": "./.tours"
+    },
+    "welcome": {
+      "path": "./.neo-playground-welcome"
     },
     "chain": "neo3",
     "languages": [
@@ -71,7 +77,12 @@ git submodule add https://github.com/neow3j/neow3j-examples-java neo3.java8.neow
   }
 ```
 
-Pay attention to the `path` attribute within the `workspace` object: if you want to set a sub-directory as the template's workspace, you need to accordingly set this attribute. In the example above, the `neo3-examples` directory is where the code related to Neo3 is located. :sweat_smile: 
+Some things to note about the JSON file:
+
+* The attribute `modulePath` within the object `git` is relative to the root of the `AxLabs/neo-playground-templates` repository.
+* The objects `codeTour` and `welcome` are optional.
+* The attribute `path` within the objects `workspace`, `codeTour`, or `welcome` are relative to the `<TEMPLATE_ID>` directory which, in this case, is `./neo3.java8.neow3j-java-neo3-examples/`.
+* Pay attention to the `path` attribute within the `workspace` object: if you want to set a sub-directory as the template's workspace, you need to accordingly set this attribute. In the example above, the `neo3-examples` directory is where the code related to Neo3 is located. :sweat_smile: 
 
 ##### 6. Commit your changes :relaxed:
 ##### 7. Create a pull request to the [neo-playground-templates](https://github.com/AxLabs/neo-playground-templates) repository
