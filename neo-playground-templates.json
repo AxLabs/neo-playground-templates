@@ -7,13 +7,19 @@
     "projectUrl": "https://neow3j.io",
     "git": {
       "url": "https://github.com/neow3j/neow3j-examples-java.git",
-      "modulePath": "./neo2.java8.neow3j-java-neo2-examples"
+      "modulePath": "./neo2.java8.neow3j-java-neo2-examples/git-repo"
     },
     "workspace": {
-      "path": "./neo2-examples"
+      "path": "./git-repo/neo2-examples"
     },
     "imageBuild": {
       "customCmd": "cd ~/workspace && sh gradlew downloadDependencies && sh gradlew buildDependents && sh gradlew compileJava"
+    },
+    "codeTour": {
+      "path": "./.tours"
+    },
+    "welcome": {
+      "path": "./.neo-playground-welcome"
     },
     "chain": "neo2",
     "languages": [
@@ -32,13 +38,19 @@
     "projectUrl": "https://neow3j.io",
     "git": {
       "url": "https://github.com/neow3j/neow3j-examples-java.git",
-      "modulePath": "./neo3.java8.neow3j-java-neo3-examples"
+      "modulePath": "./neo3.java8.neow3j-java-neo3-examples/git-repo"
     },
     "workspace": {
-      "path": "./neo3-examples"
+      "path": "./git-repo/neo3-examples"
     },
     "imageBuild": {
       "customCmd": "cd ~/workspace && sh gradlew downloadDependencies && sh gradlew buildDependents && sh gradlew compileJava"
+    },
+    "codeTour": {
+      "path": "./.tours"
+    },
+    "welcome": {
+      "path": "./.neo-playground-welcome"
     },
     "chain": "neo3",
     "languages": [
@@ -57,10 +69,10 @@
     "projectUrl": "https://github.com/devhawk",
     "git": {
       "url": "https://github.com/devhawk/cneo-sample",
-      "modulePath": "./neo2.dotnet31.devhawk-cneo-sample"
+      "modulePath": "./neo2.dotnet31.devhawk-cneo-sample/git-repo"
     },
     "workspace": {
-      "path": "./"
+      "path": "./git-repo"
     },
     "chain": "neo2",
     "languages": [
@@ -79,7 +91,7 @@
     "projectUrl": "https://github.com/devhawk",
     "git": {
       "url": "https://github.com/devhawk/neo2-nep5",
-      "modulePath": "./neo2.dotnet31.devhawk-neo2-nep5"
+      "modulePath": "./neo2.dotnet31.devhawk-neo2-nep5/git-repo"
     },
     "workspace": {
       "path": "./"
@@ -101,10 +113,10 @@
     "projectUrl": "https://github.com/devhawk",
     "git": {
       "url": "https://github.com/devhawk/domain-sample",
-      "modulePath": "./neo2.dotnet31.devhawk-domain-sample"
+      "modulePath": "./neo2.dotnet31.devhawk-domain-sample/git-repo"
     },
     "workspace": {
-      "path": "./"
+      "path": "./git-repo"
     },
     "chain": "neo2",
     "languages": [
@@ -123,10 +135,10 @@
     "projectUrl": "https://github.com/ngdenterprise",
     "git": {
       "url": "https://github.com/ngdenterprise/neo-trace-debug-example",
-      "modulePath": "./neo3.dotnet31.ngdenterprise-neo-trace-debug-example"
+      "modulePath": "./neo3.dotnet31.ngdenterprise-neo-trace-debug-example/git-repo"
     },
     "workspace": {
-      "path": "./"
+      "path": "./git-repo"
     },
     "chain": "neo3",
     "languages": [
@@ -145,10 +157,10 @@
     "projectUrl": "https://github.com/devhawk",
     "git": {
       "url": "https://github.com/devhawk/ttf-loyalty-sample",
-      "modulePath": "./neo3.dotnet31.devhawk-ttf-loyalty-sample"
+      "modulePath": "./neo3.dotnet31.devhawk-ttf-loyalty-sample/git-repo"
     },
     "workspace": {
-      "path": "./"
+      "path": "./git-repo"
     },
     "chain": "neo3",
     "languages": [
@@ -167,10 +179,10 @@
     "projectUrl": "https://github.com/devhawk",
     "git": {
       "url": "https://github.com/devhawk/registrar-sample",
-      "modulePath": "./neo3.dotnet31.devhawk-registrar-sample"
+      "modulePath": "./neo3.dotnet31.devhawk-registrar-sample/git-repo"
     },
     "workspace": {
-      "path": "./"
+      "path": "./git-repo"
     },
     "chain": "neo3",
     "languages": [
@@ -189,10 +201,10 @@
     "projectUrl": "https://nspcc.ru/en/",
     "git": {
       "url": "https://github.com/nspcc-dev/neo-go",
-      "modulePath": "./neo3.go115.nspcc-dev-neo-go-examples-token-sale"
+      "modulePath": "./neo3.go115.nspcc-dev-neo-go-examples-token-sale/git-repo"
     },
     "workspace": {
-      "path": "./examples/token-sale"
+      "path": "./git-repo/examples/token-sale"
     },
     "chain": "neo3",
     "languages": [

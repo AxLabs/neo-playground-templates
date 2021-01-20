@@ -1,0 +1,20 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Intro",
+  "steps": [
+    {
+      "title": "Go to BongoCatToken file",
+      "description": "The first step is to go to the source files, more specifically in the src/main/java/io/neow3j/examples"
+    },
+    {
+      "file": "src/main/java/io/neow3j/examples/contract_development/contracts/BongoCatToken.java",
+      "line": 22,
+      "description": "This is the first contract! The BondoCatToken. :-)"
+    },
+    {
+      "title": "Compile Contract",
+      "description": "# Go to the Gradle plugin (Elephant icon) on the left menu.\n\nYou can compile the contract by clicking on the neow3jCompile class.\n"
+    }
+  ],
+  "isPrimary": true
+}
