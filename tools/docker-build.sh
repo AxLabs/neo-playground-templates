@@ -38,7 +38,7 @@ for INDEX in "${!IDENTIFIERS[@]}"; do
     echo "TOURS_PATH=${TOURS_PATH}"
 
     WELCOME_PATH=$(cat ${PLAYGROUND_TEMPLATES_JSON_FILE_PATH} | jq -r --arg i "$INDEX" '.[$i |tonumber] .welcome .path | select (.!=null)')
-    echo "TOURS_PATH=${WELCOME_PATH}"
+    echo "WELCOME_PATH=${WELCOME_PATH}"
 
     echo "-------------------------"
     echo "Docker BUILD:"
