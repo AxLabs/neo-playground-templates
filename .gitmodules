@@ -1,8 +1,8 @@
 [submodule "neo2.dotnet31.devhawk-neo2-nep5/git-repo"]
 	path = neo2.dotnet31.devhawk-neo2-nep5/git-repo
 	url = https://github.com/devhawk/neo2-nep5
-[submodule "neo3.dotnet31.devhawk-ttf-loyalty-sample/git-repo"]
-	path = neo3.dotnet31.devhawk-ttf-loyalty-sample/git-repo
+[submodule "neo3.dotnet50.devhawk-ttf-loyalty-sample/git-repo"]
+	path = neo3.dotnet50.devhawk-ttf-loyalty-sample/git-repo
 	url = https://github.com/devhawk/ttf-loyalty-sample
 [submodule "neo2.dotnet31.devhawk-cneo-sample/git-repo"]
 	path = neo2.dotnet31.devhawk-cneo-sample/git-repo
@@ -19,8 +19,8 @@
 [submodule "neo2.dotnet31.devhawk-domain-sample/git-repo"]
 	path = neo2.dotnet31.devhawk-domain-sample/git-repo
 	url = https://github.com/devhawk/domain-sample
-[submodule "neo3.dotnet31.devhawk-registrar-sample/git-repo"]
-	path = neo3.dotnet31.devhawk-registrar-sample/git-repo
+[submodule "neo3.dotnet50.devhawk-registrar-sample/git-repo"]
+	path = neo3.dotnet50.devhawk-registrar-sample/git-repo
 	url = https://github.com/devhawk/registrar-sample
 [submodule "neo3.go115.nspcc-dev-neo-go-examples-token-sale/git-repo"]
 	path = neo3.go115.nspcc-dev-neo-go-examples-token-sale/git-repo
