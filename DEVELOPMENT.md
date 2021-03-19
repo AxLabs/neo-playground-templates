@@ -3,7 +3,7 @@
 Deleting a git submodule for good:
 
 ```shell script
-export PATH_TO_SUBMODULE=neo3.dotnet50.ngdenterprise-neo-trace-debug-example
+export PATH_TO_SUBMODULE=neo3.dotnet50.devhawk-registrar-sample
 git rm --cached ${PATH_TO_SUBMODULE}/git-repo
 rm -rf ${PATH_TO_SUBMODULE}
 git commit -m "Removed ${PATH_TO_SUBMODULE} submodule."
