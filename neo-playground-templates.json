@@ -128,14 +128,14 @@
     ]
   },
   {
-    "id": "neo3.dotnet50.ngdenterprise-neo-trace-debug-example",
-    "title": "Trace Debug Example",
-    "description": "It contains files needed to demonstrate Trace Debugging, a new feature coming in Neo Blockchain Toolkit for Neo3.",
+    "id": "neo3.dotnet50.devhawk-neo-hello-oracles-sample",
+    "title": "Oracles: Hello World",
+    "description": "It contains a basic 'hello world' smart contract to demonstrate how to call Oracles.",
     "logoUrl": "https://avatars1.githubusercontent.com/u/70729161?s=200&v=4",
-    "projectUrl": "https://github.com/ngdenterprise",
+    "projectUrl": "https://github.com/devhawk",
     "git": {
-      "url": "https://github.com/ngdenterprise/neo-trace-debug-example",
-      "modulePath": "./neo3.dotnet50.ngdenterprise-neo-trace-debug-example/git-repo"
+      "url": "https://github.com/devhawk/neo-hello-oracles-sample",
+      "modulePath": "./neo3.dotnet50.devhawk-neo-hello-oracles-sample/git-repo"
     },
     "workspace": {
       "path": "./git-repo"
@@ -150,14 +150,14 @@
     ]
   },
   {
-    "id": "neo3.dotnet50.devhawk-ttf-loyalty-sample",
-    "title": "Token Taxonomy Framework: Loyalty Example",
-    "description": "It contains all files needed to create a smart contract to govern loyalty points of users in the blockchain.",
+    "id": "neo3.dotnet50.devhawk-neo-fungible-token-sample",
+    "title": "NFT Example",
+    "description": "It contains all files needed to create a NFT smart contract.",
     "logoUrl": "https://avatars3.githubusercontent.com/u/8965?s=460&u=bddbc9c5ed69a82533bbaa8492166e65e11fbaeb&v=4",
     "projectUrl": "https://github.com/devhawk",
     "git": {
-      "url": "https://github.com/devhawk/ttf-loyalty-sample",
-      "modulePath": "./neo3.dotnet50.devhawk-ttf-loyalty-sample/git-repo"
+      "url": "https://github.com/devhawk/neo-fungible-token-sample",
+      "modulePath": "./neo3.dotnet50.devhawk-neo-fungible-token-sample/git-repo"
     },
     "workspace": {
       "path": "./git-repo"
@@ -172,14 +172,14 @@
     ]
   },
   {
-    "id": "neo3.dotnet50.devhawk-registrar-sample",
+    "id": "neo3.dotnet50.devhawk-neo-registrar-sample",
     "title": "Domain/Registrar Example",
     "description": "It contains the <a href=\"https://github.com/neo-project/examples/tree/0ab03a0ed5e1e331b756d9ad51b01657385470c7/csharp/Domain\" target=\"_blank\">Domain Smart Contract sample</a> updated for Neo 3 and with additional assets that can be used with the Neo 3 version of the <a href=\"https://marketplace.visualstudio.com/items?itemName=ngd-seattle.neo-blockchain-toolkit\" target=\"_target\">Neo Blockchain Toolkit</a>.",
     "logoUrl": "https://avatars3.githubusercontent.com/u/8965?s=460&u=bddbc9c5ed69a82533bbaa8492166e65e11fbaeb&v=4",
     "projectUrl": "https://github.com/devhawk",
     "git": {
-      "url": "https://github.com/devhawk/registrar-sample",
-      "modulePath": "./neo3.dotnet50.devhawk-registrar-sample/git-repo"
+      "url": "https://github.com/devhawk/neo-registrar-sample",
+      "modulePath": "./neo3.dotnet50.devhawk-neo-registrar-sample/git-repo"
     },
     "workspace": {
       "path": "./git-repo"

@@ -16,3 +16,12 @@
 [submodule "neo3.go115.nspcc-dev-neo-go-examples-token-sale/git-repo"]
 	path = neo3.go115.nspcc-dev-neo-go-examples-token-sale/git-repo
 	url = https://github.com/nspcc-dev/neo-go
+[submodule "neo3.dotnet50.devhawk-neo-registrar-sample/git-repo"]
+	path = neo3.dotnet50.devhawk-neo-registrar-sample/git-repo
+	url = https://github.com/devhawk/neo-registrar-sample
+[submodule "neo3.dotnet50.devhawk-neo-fungible-token-sample/git-repo"]
+	path = neo3.dotnet50.devhawk-neo-fungible-token-sample/git-repo
+	url = https://github.com/devhawk/neo-fungible-token-sample
+[submodule "neo3.dotnet50.devhawk-neo-hello-oracles-sample/git-repo"]
+	path = neo3.dotnet50.devhawk-neo-hello-oracles-sample/git-repo
+	url = https://github.com/devhawk/neo-hello-oracles-sample
