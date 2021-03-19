@@ -10,9 +10,6 @@
 [submodule "neo3.java8.neow3j-java-neo3-examples/git-repo"]
 	path = neo3.java8.neow3j-java-neo3-examples/git-repo
 	url = https://github.com/neow3j/neow3j-examples-java.git
-[submodule "neo3.dotnet50.ngdenterprise-neo-trace-debug-example/git-repo"]
-	path = neo3.dotnet50.ngdenterprise-neo-trace-debug-example/git-repo
-	url = https://github.com/ngdenterprise/neo-trace-debug-example
 [submodule "neo2.dotnet31.devhawk-domain-sample/git-repo"]
 	path = neo2.dotnet31.devhawk-domain-sample/git-repo
 	url = https://github.com/devhawk/domain-sample
