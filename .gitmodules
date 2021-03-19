@@ -13,9 +13,6 @@
 [submodule "neo2.dotnet31.devhawk-domain-sample/git-repo"]
 	path = neo2.dotnet31.devhawk-domain-sample/git-repo
 	url = https://github.com/devhawk/domain-sample
-[submodule "neo3.dotnet50.devhawk-registrar-sample/git-repo"]
-	path = neo3.dotnet50.devhawk-registrar-sample/git-repo
-	url = https://github.com/devhawk/registrar-sample
 [submodule "neo3.go115.nspcc-dev-neo-go-examples-token-sale/git-repo"]
 	path = neo3.go115.nspcc-dev-neo-go-examples-token-sale/git-repo
 	url = https://github.com/nspcc-dev/neo-go
