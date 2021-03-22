@@ -25,3 +25,6 @@
 [submodule "neo3.dotnet50.devhawk-neo-hello-oracles-sample/git-repo"]
 	path = neo3.dotnet50.devhawk-neo-hello-oracles-sample/git-repo
 	url = https://github.com/devhawk/neo-hello-oracles-sample
+[submodule "neo3.python37.neo3-boa-examples/git-repo"]
+	path = neo3.python37.neo3-boa-examples/git-repo
+	url = https://github.com/CityOfZion/neo3-boa
