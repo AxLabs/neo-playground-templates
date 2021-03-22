@@ -25,7 +25,7 @@ where:
 - `<GIT_ORG_NAME>`: the organization name, for example, `AxLabs` in `https://github.com/AxLabs/neo-playground-templates`
 - `<TEMPLATE_NAME>`: any name that represents the given template. We suggest to set as the git repository name, for example, `neo-playground-templates` in `https://github.com/AxLabs/neo-playground-templates`
 - `<CHAIN>`: either `neo2` or `neo3`
-- `<LANGUAGE_IDENTIFIER>`: either `dotnet50`, `dotnet31`, `java8`, or `go115`
+- `<LANGUAGE_IDENTIFIER>`: either `dotnet50`, `dotnet31`, `java8`, `go115`, or `python37`
 
 So, in our example, a valid `<TEMPLATE_ID>` is `neo3.java8.neow3j-java-neo3-examples`.
 

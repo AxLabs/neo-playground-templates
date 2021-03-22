@@ -214,5 +214,27 @@
       "golang",
       "neo3"
     ]
+  },
+  {
+    "id": "neo3.python37.cityofzion-neo3-boa-examples",
+    "title": "Python Smart Contract Examples",
+    "description": "This template provides Python smart contracts directly from the <a href=\"https://github.com/CityOfZion/neo3-boa\" target=\"_blank\">CityOfZion/neo3-boa</a> GitHub repository. It includes all tools to start developing your Python-based smart contracts.",
+    "logoUrl": "https://avatars.githubusercontent.com/u/29782569?s=200&v=4",
+    "projectUrl": "https://docs.coz.io/neo3/boa/",
+    "git": {
+      "url": "https://github.com/CityOfZion/neo3-boa",
+      "modulePath": "./neo3.python37.cityofzion-neo3-boa-examples/git-repo"
+    },
+    "workspace": {
+      "path": "./git-repo/boa3_test/examples"
+    },
+    "chain": "neo3",
+    "languages": [
+      "python"
+    ],
+    "tags": [
+      "python",
+      "neo3"
+    ]
   }
 ]
