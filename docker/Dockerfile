@@ -9,7 +9,7 @@ ARG WELCOME_PATH
 COPY . /root
 RUN mkdir -p /workspace && \
     bash -c "shopt -s dotglob && cp -R /root/${GIT_PATH}/* /workspace" && \
-    if [ -z ${TOURS_PATH+x} ]; then \
+    if [ -z ${TOURS_PATH} ]; then \
         echo "TOURS_PATH is not set."; \
     else \
         if [ -d "/root/${TOURS_PATH}" ]; then \
@@ -18,7 +18,7 @@ RUN mkdir -p /workspace && \
     fi;
 
 RUN mkdir -p /welcome && \
-    if [ -z ${WELCOME_PATH+x} ]; then \
+    if [ -z ${WELCOME_PATH} ]; then \
         echo "WELCOME_PATH is not set."; \
     else \
         if [ -d "/root/${WELCOME_PATH}" ]; then \
