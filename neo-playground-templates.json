@@ -1,8 +1,8 @@
 [
   {
     "id": "neo2.java8.neow3j-java-neo2-examples",
-    "title": "Java Examples for Neo2",
-    "description": "Various Java examples for Neo2, including JSON-RPC calls to interact with a node, transactions to NEP-5 contracts, and several key/wallet actions.",
+    "title": "Java Examples for Neo Legacy",
+    "description": "Various Java examples for Neo Legacy, including JSON-RPC calls to interact with a node, transactions to NEP-5 contracts, and several key/wallet actions.",
     "logoUrl": "https://neow3j.io/images/neow3j-neo3.png",
     "projectUrl": "https://neow3j.io",
     "git": {
@@ -10,7 +10,7 @@
       "modulePath": "./neo2.java8.neow3j-java-neo2-examples/git-repo"
     },
     "workspace": {
-      "path": "./git-repo/neo2-examples"
+      "path": "./git-repo/neo-legacy-examples"
     },
     "imageBuild": {
       "customCmd": "cd ~/workspace && sh gradlew downloadDependencies && sh gradlew buildDependents && sh gradlew compileJava"
@@ -32,8 +32,8 @@
   },
   {
     "id": "neo3.java8.neow3j-java-neo3-examples",
-    "title": "Java Examples for Neo3",
-    "description": "Various Java examples for Neo3, mainly focusing on how develop smart contracts using Java. It includes how to develop, compile, and deploy contracts, as well as how to write an application to issue transactions to interact with the created smart contract.",
+    "title": "Java Examples for Neo N3",
+    "description": "Various Java examples for Neo N3, mainly focusing on how develop smart contracts using Java. It includes how to develop, compile, and deploy contracts, as well as how to write an application to issue transactions to interact with the created smart contract.",
     "logoUrl": "https://neow3j.io/images/neow3j-neo3.png",
     "projectUrl": "https://neow3j.io",
     "git": {
@@ -41,7 +41,7 @@
       "modulePath": "./neo3.java8.neow3j-java-neo3-examples/git-repo"
     },
     "workspace": {
-      "path": "./git-repo/neo3-examples"
+      "path": "./git-repo/neo-n3-examples"
     },
     "imageBuild": {
       "customCmd": "cd ~/workspace && sh gradlew downloadDependencies && sh gradlew buildDependents && sh gradlew compileJava"
@@ -85,8 +85,8 @@
   },
   {
     "id": "neo2.dotnet31.devhawk-neo2-nep5",
-    "title": "NEP-5 example for Neo2",
-    "description": "Everything you need to write your first NEP-5 smart contract for Neo2.",
+    "title": "NEP-5 example for Neo Legacy",
+    "description": "Everything you need to write your first NEP-5 smart contract for Neo Legacy.",
     "logoUrl": "https://avatars3.githubusercontent.com/u/8965?s=460&u=bddbc9c5ed69a82533bbaa8492166e65e11fbaeb&v=4",
     "projectUrl": "https://github.com/devhawk",
     "git": {
@@ -94,7 +94,7 @@
       "modulePath": "./neo2.dotnet31.devhawk-neo2-nep5/git-repo"
     },
     "workspace": {
-      "path": "./"
+      "path": "./git-repo"
     },
     "chain": "neo2",
     "languages": [
@@ -152,7 +152,7 @@
   {
     "id": "neo3.dotnet50.devhawk-neo-fungible-token-sample",
     "title": "NFT Example",
-    "description": "It contains all files needed to create a NFT smart contract.",
+    "description": "It contains all files needed to create you first NFT smart contract.",
     "logoUrl": "https://avatars3.githubusercontent.com/u/8965?s=460&u=bddbc9c5ed69a82533bbaa8492166e65e11fbaeb&v=4",
     "projectUrl": "https://github.com/devhawk",
     "git": {
@@ -174,7 +174,7 @@
   {
     "id": "neo3.dotnet50.devhawk-neo-registrar-sample",
     "title": "Domain/Registrar Example",
-    "description": "It contains the <a href=\"https://github.com/neo-project/examples/tree/0ab03a0ed5e1e331b756d9ad51b01657385470c7/csharp/Domain\" target=\"_blank\">Domain Smart Contract sample</a> updated for Neo 3 and with additional assets that can be used with the Neo 3 version of the <a href=\"https://marketplace.visualstudio.com/items?itemName=ngd-seattle.neo-blockchain-toolkit\" target=\"_target\">Neo Blockchain Toolkit</a>.",
+    "description": "It contains the <a href=\"https://github.com/neo-project/examples/tree/0ab03a0ed5e1e331b756d9ad51b01657385470c7/csharp/Domain\" target=\"_blank\">Domain Smart Contract sample</a> updated for Neo N3 and with additional assets that can be used with the Neo 3 version of the <a href=\"https://marketplace.visualstudio.com/items?itemName=ngd-seattle.neo-blockchain-toolkit\" target=\"_target\">Neo Blockchain Toolkit</a>.",
     "logoUrl": "https://avatars3.githubusercontent.com/u/8965?s=460&u=bddbc9c5ed69a82533bbaa8492166e65e11fbaeb&v=4",
     "projectUrl": "https://github.com/devhawk",
     "git": {
