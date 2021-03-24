@@ -10,7 +10,7 @@
       "modulePath": "./neo2.java8.neow3j-java-neo2-examples/git-repo"
     },
     "workspace": {
-      "path": "./git-repo/neo-legacy-examples"
+      "path": "./git-repo/neo-legacy-examples/examples"
     },
     "imageBuild": {
       "customCmd": "cd ~/workspace && sh gradlew downloadDependencies && sh gradlew buildDependents && sh gradlew compileJava"
