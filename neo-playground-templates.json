@@ -31,37 +31,6 @@
     ]
   },
   {
-    "id": "neo2.java8.neow3j-java-neo2-examples",
-    "title": "Java Examples for Neo Legacy",
-    "description": "Various Java examples for Neo Legacy, including JSON-RPC calls to interact with a node, transactions to NEP-5 contracts, and several key/wallet actions.",
-    "logoUrl": "https://neow3j.io/images/neow3j-neo3.png",
-    "projectUrl": "https://neow3j.io",
-    "git": {
-      "url": "https://github.com/neow3j/neow3j-examples-java.git",
-      "modulePath": "./neo2.java8.neow3j-java-neo2-examples/git-repo"
-    },
-    "workspace": {
-      "path": "./git-repo/neo-legacy-examples/examples"
-    },
-    "imageBuild": {
-      "customCmd": "cd ~/workspace && sh gradlew downloadDependencies && sh gradlew buildDependents && sh gradlew compileJava"
-    },
-    "codeTour": {
-      "path": "./.tours"
-    },
-    "welcome": {
-      "path": "./.neo-playground-welcome"
-    },
-    "chain": "neo2",
-    "languages": [
-      "java"
-    ],
-    "tags": [
-      "java",
-      "neo2"
-    ]
-  },
-  {
     "id": "neo3.dotnet50.devhawk-neo-hello-oracles-sample",
     "title": "Oracles: Hello World",
     "description": "It contains a basic 'hello world' smart contract to demonstrate how to call Oracles.",
@@ -169,6 +138,37 @@
     "tags": [
       "python",
       "neo3"
+    ]
+  },
+  {
+    "id": "neo2.java8.neow3j-java-neo2-examples",
+    "title": "Java Examples for Neo Legacy",
+    "description": "Various Java examples for Neo Legacy, including JSON-RPC calls to interact with a node, transactions to NEP-5 contracts, and several key/wallet actions.",
+    "logoUrl": "https://neow3j.io/images/neow3j-neo3.png",
+    "projectUrl": "https://neow3j.io",
+    "git": {
+      "url": "https://github.com/neow3j/neow3j-examples-java.git",
+      "modulePath": "./neo2.java8.neow3j-java-neo2-examples/git-repo"
+    },
+    "workspace": {
+      "path": "./git-repo/neo-legacy-examples/examples"
+    },
+    "imageBuild": {
+      "customCmd": "cd ~/workspace && sh gradlew downloadDependencies && sh gradlew buildDependents && sh gradlew compileJava"
+    },
+    "codeTour": {
+      "path": "./.tours"
+    },
+    "welcome": {
+      "path": "./.neo-playground-welcome"
+    },
+    "chain": "neo2",
+    "languages": [
+      "java"
+    ],
+    "tags": [
+      "java",
+      "neo2"
     ]
   },
   {
