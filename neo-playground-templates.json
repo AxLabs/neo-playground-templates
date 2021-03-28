@@ -54,8 +54,8 @@
   },
   {
     "id": "neo3.dotnet50.devhawk-neo-fungible-token-sample",
-    "title": "NFT Example",
-    "description": "It contains all files needed to create you first NFT smart contract.",
+    "title": "Fungible Token Example",
+    "description": "It contains all files needed to create you first fungible token.",
     "logoUrl": "https://avatars3.githubusercontent.com/u/8965?s=460&u=bddbc9c5ed69a82533bbaa8492166e65e11fbaeb&v=4",
     "projectUrl": "https://github.com/devhawk",
     "git": {
