@@ -15,9 +15,6 @@
     "imageBuild": {
       "customCmd": "cd ~/workspace && sh gradlew downloadDependencies && sh gradlew buildDependents && sh gradlew compileJava"
     },
-    "codeTour": {
-      "path": "./.tours"
-    },
     "welcome": {
       "path": "./.neo-playground-welcome"
     },
