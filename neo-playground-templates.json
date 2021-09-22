@@ -10,7 +10,7 @@
       "modulePath": "./neo3.java8.neow3j-java-neo3-examples/git-repo"
     },
     "workspace": {
-      "path": "./git-repo/neo-n3-examples"
+      "path": "./git-repo"
     },
     "imageBuild": {
       "customCmd": "cd ~/workspace && sh gradlew downloadDependencies && sh gradlew buildDependents && sh gradlew compileJava"
@@ -104,7 +104,7 @@
       "modulePath": "./neo3.go115.nspcc-dev-neo-go-examples-token-sale/git-repo"
     },
     "workspace": {
-      "path": "./git-repo/examples/token-sale"
+      "path": "./git-repo/examples"
     },
     "chain": "neo3",
     "languages": [
